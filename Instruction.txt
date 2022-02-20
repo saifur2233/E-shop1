@@ -1,0 +1,14 @@
+For user
+Link: http://localhost/eshop/login.php
+Username: saif
+Password: 1234
+
+
+Link: http://localhost/eshop/admin/
+For admin
+Username: saifur
+Password: 12345678
+
+After extract you find a sql database
+dbname: ecom.sql
+

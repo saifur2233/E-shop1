@@ -65,7 +65,16 @@
         </table>
      </div>
      <div class="shipping-btn my-3">
-       <a href="shipping.php" class="btn btn-info">Go to Shipping</a>
+      <?php
+
+                  if(!empty($_SESSION["shopping_cart"]))
+                  { ?>
+                    <a href="shipping.php" class="btn btn-info">Go to Shipping</a>
+                 <?php }else{ ?>
+                  <h5>You don't select any items!!!</h5>
+                 <?php }
+                  ?>
+       
      </div>
    </div>
  </div>

@@ -287,10 +287,10 @@ form .btn input[type="submit"]{
                      <input type="text" placeholder="Mobile Number" name="mobile" required>
                   </div>
                   <div class="field">
-                     <input type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                     <input type="password" placeholder="Password" name="password" required>
                   </div>
                   <div class="field">
-                     <input type="password" placeholder="Confirm password" name="cpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                     <input type="password" placeholder="Confirm password" name="cpassword" required>
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>

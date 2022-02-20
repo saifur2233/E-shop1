@@ -1,6 +1,7 @@
 <?php
  require_once('functions/function.php');
  get_header();
+ //unset($_SESSION["shopping_cart"]);
 
  ?>
  <div class="last-area">

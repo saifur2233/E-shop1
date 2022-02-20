@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2021 at 11:29 AM
+-- Generation Time: Feb 20, 2022 at 05:33 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.8
 
@@ -173,15 +173,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `username`, `mobile`, `password`) VALUES
-(1, 'saifurnstuiit223344@gmail.com', 'saif', '6622050764', '44c099ff522cd529ade21a9c7aa54ebf'),
-(3, 'fazla223344@gmail.com', '', '', '81dc9bdb52d04dc20036dbd8313ed055'),
-(4, 'saifur@gmail.com', '', '', '81dc9bdb52d04dc20036dbd8313ed055'),
-(5, 'saifur@gmail.com', '', '', '81dc9bdb52d04dc20036dbd8313ed055'),
-(10, 'akashdebnath@gmail.com', '', '', '4cf789d20dbf02a4f442302e62cc2af9'),
-(12, 'Ash1825037m@gmail.com', 'akash', '6622050764', '3e6801f5526b7c50b417d0393fe4e838'),
-(14, 'saifurnstuiit223344@gmail.com', 'saifur2233', '01838082983', '831f0cff3c0fc30b6f29ff2e6ef60924'),
-(15, 'fazla223344@gmail.com', 'karim2233', '6622050764', '4b0302a925d8c2eee195d6637cb39261'),
-(16, 'sivlu@gmail.com', 'sivlu', '6622050764', '6bbda191fd6dc6e160cc8885f7d100e3');
+(1, 'saifurnstuiit223344@gmail.com', 'saif', '6622050764', '81dc9bdb52d04dc20036dbd8313ed055'),
+(17, 'technologymagazine23@gmail.com', 'saifur', '6622050764', '81dc9bdb52d04dc20036dbd8313ed055');
 
 --
 -- Indexes for dumped tables
@@ -261,7 +254,7 @@ ALTER TABLE `shipping_info`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
